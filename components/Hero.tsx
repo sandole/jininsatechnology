@@ -20,15 +20,15 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-8 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Enterprise Software Engineering &amp;{" "}
+            Enterprise Software Engineering,{" "}
             <span className="bg-gradient-to-r from-indigo-400 via-cyan-400 to-cyan-300 bg-clip-text text-transparent">
-              Cloud-Native Systems
+              AI &amp; Cloud-Native Systems
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
-            Building resilient cloud architecture, custom agentic
-            infrastructure, and data pipelines for public and enterprise
+            Building production AI and agentic infrastructure, resilient cloud
+            architecture, and data pipelines for public and enterprise
             sectors.
           </p>
 

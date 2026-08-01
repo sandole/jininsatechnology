@@ -16,15 +16,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://jininsa.com"),
   title: {
     default:
-      "JININSA TECHNOLOGY | Enterprise Software Engineering & Cloud-Native Systems",
+      "JININSA TECHNOLOGY | Enterprise Software Engineering, AI & Cloud-Native Systems",
     template: "%s | JININSA TECHNOLOGY",
   },
   description:
-    "JININSA TECHNOLOGY is a Canadian IT consulting and enterprise software engineering firm delivering cloud-native architecture, AI & agentic infrastructure, and data pipeline orchestration for public sector and enterprise clients. CanadaBuys registered supplier based in British Columbia.",
+    "JININSA TECHNOLOGY is a Canadian IT consulting and enterprise software engineering firm delivering production AI and agentic systems, cloud-native architecture, and data pipeline orchestration for public sector and enterprise clients. CanadaBuys registered supplier based in British Columbia.",
   keywords: [
     "JININSA TECHNOLOGY",
     "Canadian IT Consulting",
     "Enterprise Software Engineering",
+    "AI Consulting Canada",
+    "Agentic AI Development",
+    "LLM Application Development",
     "Cloud-Native Architecture",
     "AI Agentic Infrastructure",
     "Data Pipeline Orchestration",
@@ -40,15 +43,15 @@ export const metadata: Metadata = {
     url: "https://jininsa.com",
     siteName: "JININSA TECHNOLOGY",
     title:
-      "JININSA TECHNOLOGY | Enterprise Software Engineering & Cloud-Native Systems",
+      "JININSA TECHNOLOGY | Enterprise Software Engineering, AI & Cloud-Native Systems",
     description:
-      "Canadian-owned technology firm specializing in enterprise software, cloud-native infrastructure, AI & agentic workflows, and data engineering for public and enterprise sectors.",
+      "Canadian-owned technology firm specializing in enterprise software, production AI & agentic workflows, cloud-native infrastructure, and data engineering for public and enterprise sectors.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "JININSA TECHNOLOGY | Enterprise Software Engineering",
+    title: "JININSA TECHNOLOGY | Enterprise Software & AI Engineering",
     description:
-      "Canadian IT consulting firm — cloud-native systems, AI & agentic infrastructure, and data engineering for public and enterprise sectors.",
+      "Canadian IT consulting firm — AI & agentic infrastructure, cloud-native systems, and data engineering for public and enterprise sectors.",
   },
   robots: {
     index: true,

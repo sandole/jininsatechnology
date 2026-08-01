@@ -13,17 +13,6 @@ const pillars = [
     ],
   },
   {
-    icon: CloudCog,
-    title: "Cloud-Native & Infrastructure",
-    blurb:
-      "Secure, scalable cloud foundations that cut operational overhead and accelerate delivery.",
-    items: [
-      "Azure & multi-cloud architecture",
-      "DevOps automation & CI/CD",
-      "Infrastructure as Code",
-    ],
-  },
-  {
     icon: Bot,
     title: "AI & Agentic Workflows",
     blurb:
@@ -32,6 +21,17 @@ const pillars = [
       "AI strategy & enterprise integration",
       "Agent & LLM systems in production",
       "Document intelligence & knowledge retrieval",
+    ],
+  },
+  {
+    icon: CloudCog,
+    title: "Cloud-Native & Infrastructure",
+    blurb:
+      "Secure, scalable cloud foundations that cut operational overhead and accelerate delivery.",
+    items: [
+      "Azure & multi-cloud architecture",
+      "DevOps automation & CI/CD",
+      "Infrastructure as Code",
     ],
   },
   {
@@ -60,8 +60,8 @@ export default function Capabilities() {
           </h2>
           <p className="mt-4 text-slate-400">
             Four practice areas covering the full lifecycle of modern software
-            delivery — from strategy and architecture to production systems and
-            intelligent automation.
+            delivery — from strategy and cloud architecture to production AI
+            systems and intelligent automation.
           </p>
         </div>
 

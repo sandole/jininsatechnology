@@ -33,8 +33,7 @@ export default function ContactFooter() {
             </h2>
             <p className="mt-4 max-w-md leading-relaxed text-slate-400">
               Available for RFPs, standing offers, subcontracting arrangements,
-              and direct enterprise engagements. Responses within one business
-              day.
+              and enterprise AI initiatives. Responses within one business day.
             </p>
 
             <div className="mt-8 space-y-4">
