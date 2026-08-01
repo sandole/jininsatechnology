@@ -4,37 +4,45 @@ const pillars = [
   {
     icon: Code2,
     title: "Enterprise Software Engineering",
+    blurb:
+      "Mission-critical applications delivered end-to-end — from discovery and design through production and support.",
     items: [
-      "Custom web applications",
-      "Modern microservices",
-      "CPython & C++ performance optimization",
+      "Custom platforms & web applications",
+      "Legacy system modernization",
+      "Performance & reliability engineering",
     ],
   },
   {
     icon: CloudCog,
     title: "Cloud-Native & Infrastructure",
+    blurb:
+      "Secure, scalable cloud foundations that cut operational overhead and accelerate delivery.",
     items: [
-      "AWS / multi-cloud architecture",
-      "DevOps & CI/CD pipelines",
-      "Infrastructure as Code & serverless deployment",
+      "Azure & multi-cloud architecture",
+      "DevOps automation & CI/CD",
+      "Infrastructure as Code",
     ],
   },
   {
     icon: Bot,
     title: "AI & Agentic Workflows",
+    blurb:
+      "Practical AI that automates real business processes — production systems, not experiments.",
     items: [
-      "Multi-agent orchestration",
-      "LLM application pipelines",
-      "Automated business logic",
+      "AI strategy & enterprise integration",
+      "Agent & LLM systems in production",
+      "Document intelligence & knowledge retrieval",
     ],
   },
   {
     icon: Database,
     title: "Data Engineering & Systems Design",
+    blurb:
+      "Fragmented data turned into decision-ready insight for analysts and leadership.",
     items: [
-      "Distributed data processing",
-      "API integration layers",
-      "Quantitative analytics systems",
+      "Data pipelines & integration",
+      "Analytics & reporting systems",
+      "Quantitative & financial modelling",
     ],
   },
 ];
@@ -51,9 +59,9 @@ export default function Capabilities() {
             Core Capabilities
           </h2>
           <p className="mt-4 text-slate-400">
-            Four engineering pillars covering the full lifecycle of modern
-            software delivery — from application code to cloud infrastructure
-            and intelligent automation.
+            Four practice areas covering the full lifecycle of modern software
+            delivery — from strategy and architecture to production systems and
+            intelligent automation.
           </p>
         </div>
 
@@ -69,11 +77,14 @@ export default function Capabilities() {
               <h3 className="mt-5 text-lg font-semibold text-white">
                 {pillar.title}
               </h3>
-              <ul className="mt-4 space-y-2.5">
+              <p className="mt-3 text-sm leading-relaxed text-slate-400">
+                {pillar.blurb}
+              </p>
+              <ul className="mt-4 space-y-2.5 border-t border-slate-800 pt-4">
                 {pillar.items.map((item) => (
                   <li
                     key={item}
-                    className="flex items-start gap-2 text-sm leading-relaxed text-slate-400"
+                    className="flex items-start gap-2 text-sm leading-relaxed text-slate-300"
                   >
                     <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-400" />
                     {item}

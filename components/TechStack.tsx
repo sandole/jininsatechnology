@@ -1,27 +1,43 @@
-import { Terminal, Cloud, Layers } from "lucide-react";
+import { Terminal, Cloud, Sparkles, GitPullRequest } from "lucide-react";
 
 const domains = [
   {
     icon: Terminal,
     name: "Languages & Runtimes",
-    items: ["Python", "TypeScript", "C++", "Node.js"],
+    items: ["Python", "TypeScript", "Go", "Java", "Node.js"],
   },
   {
     icon: Cloud,
     name: "Cloud & Infrastructure",
-    items: ["AWS", "Docker", "Kubernetes", "Terraform", "Serverless"],
+    items: [
+      "Microsoft Azure",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "ArgoCD",
+      "Kafka",
+      "Event-Driven Systems",
+    ],
   },
   {
-    icon: Layers,
-    name: "Frameworks & Data",
+    icon: Sparkles,
+    name: "AI, Frameworks & Data",
     items: [
+      "LangChain / LangGraph",
+      "LlamaIndex",
+      "RAG Pipelines",
+      "Model Context Protocol (MCP)",
       "Next.js",
       "React",
       "PostgreSQL",
-      "Redis",
-      "LangChain / LangGraph",
     ],
   },
+];
+
+const openSource = [
+  { project: "python/cpython", note: "merged core contributions" },
+  { project: "OpenBB", note: "8 merged PRs" },
+  { project: "LlamaIndex", note: "contributor" },
 ];
 
 export default function TechStack() {
@@ -37,7 +53,8 @@ export default function TechStack() {
           </h2>
           <p className="mt-4 text-slate-400">
             Production-proven tooling across the application, infrastructure,
-            and data layers.
+            and AI layers — the same stack we run in institutional-grade
+            environments.
           </p>
         </div>
 
@@ -67,6 +84,36 @@ export default function TechStack() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-6 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+          <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex items-center gap-3">
+              <div className="inline-flex rounded-lg bg-indigo-500/10 p-2.5 ring-1 ring-indigo-500/20">
+                <GitPullRequest className="h-5 w-5 text-indigo-400" />
+              </div>
+              <div>
+                <h3 className="text-base font-semibold text-white">
+                  Open Source Track Record
+                </h3>
+                <p className="mt-0.5 text-sm text-slate-400">
+                  Our engineering is validated in public — merged contributions
+                  to the tools the industry runs on.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {openSource.map((entry) => (
+                <span
+                  key={entry.project}
+                  className="rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3.5 py-1.5 text-sm font-medium text-indigo-300"
+                >
+                  <span className="font-mono">{entry.project}</span>
+                  <span className="text-indigo-400/70"> · {entry.note}</span>
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
