@@ -80,7 +80,7 @@ export default function Image() {
             color: "#64748b",
           }}
         >
-          jininsa.com · British Columbia, Canada
+          jininsatechnology.com · British Columbia, Canada
         </div>
       </div>
     ),

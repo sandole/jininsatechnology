@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jininsa.com"),
+  metadataBase: new URL("https://jininsatechnology.com"),
   title: {
     default:
       "JININSA TECHNOLOGY | Enterprise Software Engineering, AI & Cloud-Native Systems",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://jininsa.com",
+    url: "https://jininsatechnology.com",
     siteName: "JININSA TECHNOLOGY",
     title:
       "JININSA TECHNOLOGY | Enterprise Software Engineering, AI & Cloud-Native Systems",

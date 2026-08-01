@@ -9,7 +9,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   name: "JININSA TECHNOLOGY",
-  url: "https://jininsa.com",
+  url: "https://jininsatechnology.com",
   email: "sandole97@gmail.com",
   description:
     "Canadian IT consulting and enterprise software engineering firm delivering production AI and agentic systems, cloud-native architecture, and data pipeline orchestration for public sector and enterprise clients.",
